@@ -4,8 +4,8 @@
   <artifactId>myportal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-   <properties>
-  <org.springframework-version>4.3.30.RELEASE</org.springframework-version>
+  <properties>
+  	<org.springframework-version>4.3.30.RELEASE</org.springframework-version>
   </properties>
   <build>
     <plugins>
