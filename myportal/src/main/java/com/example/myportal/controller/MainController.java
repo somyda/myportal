@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class MainController {
+	
 	@RequestMapping("/main")
 	public ModelAndView hello(@RequestParam String name) {
 		ModelAndView mav = new ModelAndView();
@@ -17,4 +18,5 @@ public class MainController {
 		return mav;
 	}
 
+	
 }
