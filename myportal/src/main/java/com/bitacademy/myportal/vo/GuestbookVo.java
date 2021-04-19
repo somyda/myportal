@@ -19,7 +19,7 @@ public class GuestbookVo {
 		this.no = no;
 		this.password = password;
 	}
-	
+
 	public GuestbookVo(String name, String password, String content) {
 		super();
 		this.name = name;
@@ -36,7 +36,7 @@ public class GuestbookVo {
 		this.regDate = regDate;
 	}
 
-	//	Getter/Setters
+	//	Getters / Setters
 	public Long getNo() {
 		return no;
 	}
@@ -83,5 +83,4 @@ public class GuestbookVo {
 		return "GuestbookVo [no=" + no + ", name=" + name + ", password=" + password + ", content=" + content
 				+ ", regDate=" + regDate + "]";
 	}
-	
 }

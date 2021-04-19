@@ -3,7 +3,7 @@ package com.bitacademy.myportal.vo;
 import java.util.Date;
 
 public class MemberVo {
-	//	필드
+	// 필드
 	private Long no;
 	private String name;
 	private String email;
@@ -65,9 +65,12 @@ public class MemberVo {
 		this.joindate = joindate;
 	}
 
+	//	toString
 	@Override
 	public String toString() {
 		return "MemberVo [no=" + no + ", name=" + name + ", email=" + email + ", password=" + password + ", gender="
 				+ gender + ", joindate=" + joindate + "]";
 	}
+	
+	
 }
